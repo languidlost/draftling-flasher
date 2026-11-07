@@ -8,26 +8,27 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_pro-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_pro-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_pro-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_pro-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_pro-otadata.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_pro-otadata.bin",
               "offset": "0xd000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_pro.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_pro.bin",
               "offset": "0x10000"
             }
           ],
@@ -38,19 +39,19 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-vietnamese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-vietnamese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -61,19 +62,19 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-korean-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-korean-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -84,19 +85,19 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-japanese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-japanese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -107,257 +108,19 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-chinese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-chinese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_pro-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_pro-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_pro-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_pro-otadata.bin",
-              "offset": "0xd000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_pro.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-vietnamese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-korean-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-japanese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-chinese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_pro-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_pro-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_pro-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_pro-otadata.bin",
-              "offset": "0xd000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_pro.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-vietnamese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-korean-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-japanese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-chinese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_pro-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_pro-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -373,26 +136,27 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_classic-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_classic-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_classic-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_classic-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_classic-otadata.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_classic-otadata.bin",
               "offset": "0xd000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-xteink_x4_classic.bin",
+              "path": "firmware/v1.0.23/draftling-xteink_x4_classic.bin",
               "offset": "0x10000"
             }
           ],
@@ -403,19 +167,19 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-vietnamese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-vietnamese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -426,19 +190,19 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-korean-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-korean-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -449,19 +213,19 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-japanese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-japanese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -472,257 +236,19 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-chinese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-chinese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-xteink_x4_classic-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_classic-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_classic-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_classic-otadata.bin",
-              "offset": "0xd000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-xteink_x4_classic.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-vietnamese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-korean-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-japanese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-chinese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-xteink_x4_classic-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_classic-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_classic-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_classic-otadata.bin",
-              "offset": "0xd000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-xteink_x4_classic.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-vietnamese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-korean-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-japanese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-chinese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-xteink_x4_classic-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-xteink_x4_classic-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -738,22 +264,23 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-waveshare_rlcd42.bin",
+              "path": "firmware/v1.0.23/draftling-waveshare_rlcd42.bin",
               "offset": "0x10000"
             }
           ],
@@ -764,15 +291,15 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -783,15 +310,15 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -802,15 +329,15 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -821,213 +348,15 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_rlcd42-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-waveshare_rlcd42.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_rlcd42-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-waveshare_rlcd42.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_rlcd42-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_rlcd42-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1043,22 +372,23 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-waveshare_epaper_397.bin",
+              "path": "firmware/v1.0.23/draftling-waveshare_epaper_397.bin",
               "offset": "0x10000"
             }
           ],
@@ -1069,15 +399,15 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1088,15 +418,15 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1107,15 +437,15 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1126,213 +456,15 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-waveshare_epaper_397-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-waveshare_epaper_397.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-waveshare_epaper_397-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-waveshare_epaper_397.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-waveshare_epaper_397-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-waveshare_epaper_397-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1348,22 +480,23 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro.bin",
+              "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro.bin",
               "offset": "0x10000"
             }
           ],
@@ -1374,15 +507,15 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1393,15 +526,15 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1412,15 +545,15 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1431,213 +564,15 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-lilygo_t5_epd_s3_pro-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-lilygo_t5_epd_s3_pro-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-lilygo_t5_epd_s3_pro-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-lilygo_t5_epd_s3_pro-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1653,22 +588,23 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001.bin",
+              "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001.bin",
               "offset": "0x10000"
             }
           ],
@@ -1679,15 +615,15 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1698,15 +634,15 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1717,15 +653,15 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1736,213 +672,15 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_e1001-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_e1001-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_e1001-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_e1001-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -1958,26 +696,27 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "32MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-otadata.bin",
+              "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-otadata.bin",
               "offset": "0xd000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky.bin",
+              "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky.bin",
               "offset": "0x10000"
             }
           ],
@@ -1988,19 +727,19 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-vietnamese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-vietnamese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2011,19 +750,19 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-korean-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-korean-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2034,19 +773,19 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-japanese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-japanese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2057,282 +796,19 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-chinese-otadata.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-chinese-otadata.bin",
                   "offset": "0xd000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-seeed_reterminal_sticky-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21-sticky-power",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "32MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21-sticky-power/draftling-seeed_reterminal_sticky-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21-sticky-power/draftling-seeed_reterminal_sticky-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21-sticky-power/draftling-seeed_reterminal_sticky-otadata.bin",
-              "offset": "0xd000"
-            },
-            {
-              "path": "firmware/v1.0.21-sticky-power/draftling-seeed_reterminal_sticky.bin",
-              "offset": "0x10000"
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "32MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-otadata.bin",
-              "offset": "0xd000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-vietnamese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-korean-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-japanese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-chinese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-seeed_reterminal_sticky-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "32MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-otadata.bin",
-              "offset": "0xd000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-vietnamese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-korean-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-japanese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-chinese-otadata.bin",
-                  "offset": "0xd000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-seeed_reterminal_sticky-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-seeed_reterminal_sticky-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2348,22 +824,23 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-m5stack_papermono-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-m5stack_papermono-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-m5stack_papermono-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-m5stack_papermono-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-m5stack_papermono.bin",
+              "path": "firmware/v1.0.23/draftling-m5stack_papermono.bin",
               "offset": "0x10000"
             }
           ],
@@ -2374,15 +851,15 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2393,15 +870,15 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2412,15 +889,15 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2431,213 +908,15 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-m5stack_papermono-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.21",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.21/draftling-m5stack_papermono-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-m5stack_papermono-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.21/draftling-m5stack_papermono.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-m5stack_papermono-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "v1.0.20",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
-          "parts": [
-            {
-              "path": "firmware/v1.0.20/draftling-m5stack_papermono-bootloader.bin",
-              "offset": "0x0"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-m5stack_papermono-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.20/draftling-m5stack_papermono.bin",
-              "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.20/draftling-m5stack_papermono-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_papermono-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2653,22 +932,23 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
-          "tag": "v1.0.22",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.22/draftling-microjournal_rev5-bootloader.bin",
+              "path": "firmware/v1.0.23/draftling-microjournal_rev5-bootloader.bin",
               "offset": "0x0"
             },
             {
-              "path": "firmware/v1.0.22/draftling-microjournal_rev5-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-microjournal_rev5-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.22/draftling-microjournal_rev5.bin",
+              "path": "firmware/v1.0.23/draftling-microjournal_rev5.bin",
               "offset": "0x10000"
             }
           ],
@@ -2679,15 +959,15 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-vietnamese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-vietnamese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2698,15 +978,15 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-korean-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-korean-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2717,15 +997,15 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-japanese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-japanese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2736,137 +1016,75 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-chinese-bootloader.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-chinese-bootloader.bin",
                   "offset": "0x0"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.22/draftling-microjournal_rev5-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-microjournal_rev5-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "m5stack_tab5_cp_upgrade",
+      "name": "M5Stack Tab5 -- C6 radio upgrade tool (run once before Draftling)",
+      "description": "Installs esp-hosted 3.1 on the Tab5's ESP32-C6 (Wi-Fi / Bluetooth) from the P4, no wires needed. Flash it, wait until the screen says \"Done\", then flash \"M5Stack Tab5\" (Draftling). The C6 keeps its firmware across later reflashes.",
+      "chipFamily": "ESP32-P4",
+      "releases": [
         {
-          "tag": "v1.0.21",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
           "parts": [
             {
-              "path": "firmware/v1.0.21/draftling-microjournal_rev5-bootloader.bin",
-              "offset": "0x0"
+              "path": "firmware/v1.0.23/draftling-m5stack_tab5_cp_upgrade-bootloader.bin",
+              "offset": "0x2000"
             },
             {
-              "path": "firmware/v1.0.21/draftling-microjournal_rev5-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-m5stack_tab5_cp_upgrade-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.21/draftling-microjournal_rev5.bin",
+              "path": "firmware/v1.0.23/draftling-m5stack_tab5_cp_upgrade.bin",
               "offset": "0x10000"
-            }
-          ],
-          "languagePacks": [
-            {
-              "id": "vietnamese",
-              "name": "Vietnamese (English + Vietnamese Telex)",
-              "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-vietnamese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-vietnamese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-vietnamese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "korean",
-              "name": "Korean (English + Korean 2-set Hangul)",
-              "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-korean-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-korean-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-korean.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "japanese",
-              "name": "Japanese (English + Japanese romaji/kana/kanji)",
-              "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-japanese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-japanese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-japanese.bin",
-                  "offset": "0x10000"
-                }
-              ]
-            },
-            {
-              "id": "chinese",
-              "name": "Chinese (English + Simplified Chinese pinyin)",
-              "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
-              "parts": [
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-chinese-bootloader.bin",
-                  "offset": "0x0"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-chinese-partition-table.bin",
-                  "offset": "0x8000"
-                },
-                {
-                  "path": "firmware/v1.0.21/draftling-microjournal_rev5-chinese.bin",
-                  "offset": "0x10000"
-                }
-              ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "m5stack_tab5",
+      "name": "M5Stack Tab5",
+      "description": "ESP32-P4, 5\" 1280x720 color LCD + touch, Tab5 keyboard / USB / BLE keyboards. Needs esp-hosted 3.1 on the Tab5's ESP32-C6 radio: flash \"M5Stack Tab5 -- C6 radio upgrade tool\" first, once.",
+      "chipFamily": "ESP32-P4",
+      "releases": [
         {
-          "tag": "v1.0.20",
+          "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
           "flashSize": "16MB",
-          "defaultPackName": "Default (English, Ukrainian, German, French, Hebrew)",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
           "parts": [
             {
-              "path": "firmware/v1.0.20/draftling-microjournal_rev5-bootloader.bin",
-              "offset": "0x0"
+              "path": "firmware/v1.0.23/draftling-m5stack_tab5-bootloader.bin",
+              "offset": "0x2000"
             },
             {
-              "path": "firmware/v1.0.20/draftling-microjournal_rev5-partition-table.bin",
+              "path": "firmware/v1.0.23/draftling-m5stack_tab5-partition-table.bin",
               "offset": "0x8000"
             },
             {
-              "path": "firmware/v1.0.20/draftling-microjournal_rev5.bin",
+              "path": "firmware/v1.0.23/draftling-m5stack_tab5.bin",
               "offset": "0x10000"
             }
           ],
@@ -2877,15 +1095,15 @@
               "description": "Type Vietnamese with Telex: aa, dd, w, s/f/r/x/j for tones. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-vietnamese-bootloader.bin",
-                  "offset": "0x0"
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-vietnamese-bootloader.bin",
+                  "offset": "0x2000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-vietnamese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-vietnamese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-vietnamese.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-vietnamese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2896,15 +1114,15 @@
               "description": "Dubeolsik layout; jamo are composed into Hangul syllables as you type. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-korean-bootloader.bin",
-                  "offset": "0x0"
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-korean-bootloader.bin",
+                  "offset": "0x2000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-korean-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-korean-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-korean.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-korean.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2915,15 +1133,15 @@
               "description": "Romaji become hiragana; Space converts to kanji, candidates in the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-japanese-bootloader.bin",
-                  "offset": "0x0"
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-japanese-bootloader.bin",
+                  "offset": "0x2000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-japanese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-japanese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-japanese.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-japanese.bin",
                   "offset": "0x10000"
                 }
               ]
@@ -2934,15 +1152,15 @@
               "description": "Type pinyin; pick hanzi with Space or 1-9 from the status bar. Typing guide: https://github.com/clackups/draftling/blob/main/docs/language-packs.md",
               "parts": [
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-chinese-bootloader.bin",
-                  "offset": "0x0"
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-chinese-bootloader.bin",
+                  "offset": "0x2000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-chinese-partition-table.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-chinese-partition-table.bin",
                   "offset": "0x8000"
                 },
                 {
-                  "path": "firmware/v1.0.20/draftling-microjournal_rev5-chinese.bin",
+                  "path": "firmware/v1.0.23/draftling-m5stack_tab5-chinese.bin",
                   "offset": "0x10000"
                 }
               ]
