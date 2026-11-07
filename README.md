@@ -37,6 +37,12 @@ via GitHub Pages at https://flasher.draftling.art/.
   In the UI, picking a board populates a second dropdown with that
   board's `releases` (defaulting to the first / newest entry).
 
+  A release may also have a `label` (shown in the version dropdown
+  instead of its `tag`) and a `description` (shown under it). The
+  M5Stack Tab5 uses them for its second release, the C6 radio upgrade
+  tool (`firmware/c6-upgrade-<esp-hosted version>/`), whose version is
+  the esp-hosted version it installs, not a Draftling tag.
+
   A release's `parts` are its image for the default language pack. A
   release can also carry a `languagePacks` array with images built with
   other packs (`idf.py --preset <board> --lang-pack <pack> build`, see

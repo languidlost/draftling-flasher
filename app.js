@@ -12,6 +12,7 @@ const els = {
   connectBtn: document.getElementById("connect-btn"),
   disconnectBtn: document.getElementById("disconnect-btn"),
   chipInfo: document.getElementById("chip-info"),
+  versionDesc: document.getElementById("version-desc"),
   stepFlash: document.getElementById("step-flash"),
   eraseAll: document.getElementById("erase-all"),
   flashBtn: document.getElementById("flash-btn"),
@@ -99,7 +100,7 @@ function selectBoard(board, silent) {
   board.releases.forEach((release) => {
     const option = document.createElement("option");
     option.value = release.tag;
-    option.textContent = release.tag;
+    option.textContent = release.label || release.tag;
     els.versionSelect.appendChild(option);
   });
   selectRelease(board.releases[0], true);
@@ -112,6 +113,7 @@ function selectRelease(release, silent) {
   const prevPack = selectedPack ? selectedPack.id : "default";
   selectedRelease = release;
   els.versionSelect.value = release.tag;
+  els.versionDesc.textContent = release.description || "";
 
   const packs = releasePacks(release);
   els.langSelect.innerHTML = "";
@@ -125,7 +127,7 @@ function selectRelease(release, silent) {
   selectPack(packs.find((p) => p.id === prevPack) || packs[0], true);
 
   els.connectBtn.disabled = false;
-  if (!silent) logLine(`Firmware version selected: ${release.tag}`);
+  if (!silent) logLine(`Firmware version selected: ${release.label || release.tag}`);
 }
 
 function selectPack(pack, silent) {

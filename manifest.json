@@ -1034,37 +1034,9 @@
       ]
     },
     {
-      "id": "m5stack_tab5_cp_upgrade",
-      "name": "M5Stack Tab5 -- C6 radio upgrade tool (run once before Draftling)",
-      "description": "Installs esp-hosted 3.1 on the Tab5's ESP32-C6 (Wi-Fi / Bluetooth) from the P4, no wires needed. Flash it, wait until the screen says \"Done\", then flash \"M5Stack Tab5\" (Draftling). The C6 keeps its firmware across later reflashes.",
-      "chipFamily": "ESP32-P4",
-      "releases": [
-        {
-          "tag": "v1.0.23",
-          "flashMode": "dio",
-          "flashFreq": "80m",
-          "flashSize": "16MB",
-          "parts": [
-            {
-              "path": "firmware/v1.0.23/draftling-m5stack_tab5_cp_upgrade-bootloader.bin",
-              "offset": "0x2000"
-            },
-            {
-              "path": "firmware/v1.0.23/draftling-m5stack_tab5_cp_upgrade-partition-table.bin",
-              "offset": "0x8000"
-            },
-            {
-              "path": "firmware/v1.0.23/draftling-m5stack_tab5_cp_upgrade.bin",
-              "offset": "0x10000"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "m5stack_tab5",
       "name": "M5Stack Tab5",
-      "description": "ESP32-P4, 5\" 1280x720 color LCD + touch, Tab5 keyboard / USB / BLE keyboards. Needs esp-hosted 3.1 on the Tab5's ESP32-C6 radio: flash \"M5Stack Tab5 -- C6 radio upgrade tool\" first, once.",
+      "description": "ESP32-P4, 5\" 1280x720 color LCD + touch, Tab5 keyboard / USB / BLE keyboards. Draftling needs esp-hosted 3.1 on the Tab5's ESP32-C6 radio: the first time, pick \"C6 upgrade tool 3.1.0\" under Firmware version and flash it, then flash Draftling.",
       "chipFamily": "ESP32-P4",
       "releases": [
         {
@@ -1164,6 +1136,29 @@
                   "offset": "0x10000"
                 }
               ]
+            }
+          ],
+          "description": "Draftling for the Tab5. Needs esp-hosted 3.1 on the C6 (see the C6 upgrade tool)."
+        },
+        {
+          "tag": "c6-upgrade-3.1.0",
+          "label": "C6 upgrade tool 3.1.0",
+          "description": "Installs esp-hosted 3.1.0 on the Tab5's ESP32-C6 (Wi-Fi / Bluetooth) from the P4, no wires needed. Flash it, wait until the screen says \"Done\", then flash Draftling (the version above). The C6 keeps its firmware across later reflashes.",
+          "flashMode": "dio",
+          "flashFreq": "80m",
+          "flashSize": "16MB",
+          "parts": [
+            {
+              "path": "firmware/c6-upgrade-3.1.0/m5stack_tab5-c6-upgrade-3.1.0-bootloader.bin",
+              "offset": "0x2000"
+            },
+            {
+              "path": "firmware/c6-upgrade-3.1.0/m5stack_tab5-c6-upgrade-3.1.0-partition-table.bin",
+              "offset": "0x8000"
+            },
+            {
+              "path": "firmware/c6-upgrade-3.1.0/m5stack_tab5-c6-upgrade-3.1.0.bin",
+              "offset": "0x10000"
             }
           ]
         }
