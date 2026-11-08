@@ -932,6 +932,28 @@
       "chipFamily": "ESP32-S3",
       "releases": [
         {
+          "tag": "rev5 experimental",
+          "flashMode": "dio",
+          "flashFreq": "80m",
+          "flashSize": "16MB",
+          "defaultPackName": "Default (English, European layouts, Ukrainian, Hebrew)",
+          "defaultPackDescription": "US English, Ukrainian, German, French, Hebrew, Swiss German, Swiss French, Italian, Portuguese, Spanish, UK, Swedish / Finnish, Norwegian, Danish, Polish, Czech, Slovak, Hungarian, Romanian, Croatian / Slovenian, Turkish Q. Turn them on in F1 -> Settings -> Active layouts.",
+          "parts": [
+            {
+              "path": "firmware/rev5 experimental/draftling-microjournal_rev5-bootloader.bin",
+              "offset": "0x0"
+            },
+            {
+              "path": "firmware/rev5 experimental/draftling-microjournal_rev5-partition-table.bin",
+              "offset": "0x8000"
+            },
+            {
+              "path": "firmware/rev5 experimental/draftling-microjournal_rev5.bin",
+              "offset": "0x10000"
+            }
+          ]
+        },
+        {
           "tag": "v1.0.23",
           "flashMode": "dio",
           "flashFreq": "80m",
